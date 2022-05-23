@@ -1,0 +1,61 @@
+.background {
+  background-image: url("../../assets/backgrounds/index.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.linkContainer {
+  display: flex;
+  align-self: center;
+  width: 80%;
+  height: 70%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.linkContainer > a:nth-child(2n + 1) {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #a6d8ff;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #7abae7;
+  height: fit-content;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.linkContainer > a:nth-child(2n + 1):hover {
+  color: #a6d8ff;
+  background-color: #ffffff;
+  transform: scale(1.05);
+  border-color: #7abae7;
+}
+
+.linkContainer > a:nth-child(2n) {
+  height: fit-content;
+  color: #acacac;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.linkContainer > a:nth-child(2n):hover {
+  color: #ffffff;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

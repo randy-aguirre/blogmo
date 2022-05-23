@@ -1,0 +1,17 @@
+.background {
+  background-image: url("../../../assets/backgrounds/justification.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+
+.background h1 {
+  font-size: 60px;
+  color: #82b7f8;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  left: 55%;
+  top: 25%;
+}

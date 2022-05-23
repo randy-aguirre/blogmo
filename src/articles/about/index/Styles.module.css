@@ -1,0 +1,36 @@
+.background {
+  background-image: url("../../../assets/backgrounds/about.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 80px !important;
+  color: #fe857a;
+}
+
+.linkContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 60%;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.linkContainer > div {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+}
+
+.linkContainer a {
+  color: #ffda73;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}

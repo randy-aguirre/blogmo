@@ -1,0 +1,55 @@
+.background {
+  background-image: url("../../../assets/backgrounds/laterality.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.background p {
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  color: #0086d2;
+  text-align: justify;
+}
+
+.background h1 {
+  margin: 0;
+  color: #ffda73;
+  font-size: 48px;
+  font-family: "Fredoka One", cursive;
+}
+
+.background > div {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  justify-content: space-evenly;
+  margin-right: 5%;
+}
+
+.background a {
+  height: fit-content;
+  color: #a6d8ff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.background a:hover {
+  color: #7abae7;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

@@ -1,0 +1,62 @@
+.background {
+  background-image: url("../../../assets/backgrounds/coordination.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  color: #ff6b6b;
+  font-size: 60px;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 0;
+}
+
+.background > div {
+  margin-left: 5%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.background p {
+  width: 50%;
+  font-family: "Exo 2", sans-serif;
+  color: #cce1fc;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.background > div > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.background a {
+  height: fit-content;
+  color: #a6d8ff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.background a:hover {
+  color: #7abae7;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

@@ -1,0 +1,57 @@
+.background {
+  background-image: url("../../../assets/backgrounds/eye-hand-coordination.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: flex-end; */
+  flex-direction: column;
+  height: 100%;
+}
+
+.background h1 {
+  margin: 0;
+  font-size: 32px;
+  font-family: "Fredoka One", cursive;
+  color: #82b7f8;
+}
+
+.background > div {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  padding: 5% 5% 5% 0;
+  align-self: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.background p {
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  color: #ff6b6b;
+  text-align: justify;
+}
+
+.background a {
+  height: fit-content;
+  color: #a6d8ff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.background a:hover {
+  color: #7abae7;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

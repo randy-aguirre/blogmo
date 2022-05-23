@@ -1,0 +1,66 @@
+.background {
+  background-image: url("../../../assets/backgrounds/motor-skills.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column; */
+  overflow: hidden;
+}
+
+.background h1 {
+  color: #92c05d;
+  font-size: 48px;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  top: 5%;
+  left: 10%;
+}
+
+.background > div:nth-child(2) {
+  position: relative;
+  top: 8%;
+  left: 40%;
+  width: 50%;
+  color: #ffffff;
+  font-family: "Exo 2", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.background p {
+  margin: 10px 0;
+}
+
+.background > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10%;
+  left: 40%;
+  width: fit-content;
+}
+
+.background > div:nth-child(3) a {
+  height: fit-content;
+  color: #a6d8ff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.background > div:nth-child(3) a:hover {
+  color: #7abae7;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

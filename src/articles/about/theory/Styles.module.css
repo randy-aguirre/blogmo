@@ -1,0 +1,17 @@
+.background {
+  background-image: url("../../../assets/backgrounds/theory.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.background h1 {
+  font-size: 60px;
+  color: #ffda73;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  top: 5%;
+}

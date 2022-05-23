@@ -1,0 +1,46 @@
+.background {
+  background-image: url("../../../assets/backgrounds/eye-foot-coordination.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  color: #ff6b6b;
+  font-size: 48px;
+  font-family: "Fredoka One", cursive;
+  margin: 0;
+}
+
+.background p {
+  font-family: "Exo 2", sans-serif;
+  color: #003399;
+  text-align: justify;
+  width: 50%;
+  padding: 2% 0;
+}
+
+.background > div:nth-child(3) a {
+  height: fit-content;
+  color: #a6d8ff;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffff9b;
+  font-family: "Fredoka One", cursive;
+  border-radius: 20px;
+  font-size: 24px;
+  border: 5px solid #fcd56c;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.background > div:nth-child(3) a:hover {
+  color: #7abae7;
+  background-color: #fcd56c;
+  transform: scale(1.1);
+}

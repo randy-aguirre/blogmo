@@ -1,0 +1,17 @@
+.background {
+  background-image: url("../../../assets/backgrounds/intro.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+
+.background h1 {
+  font-size: 60px;
+  color: #ff6b6b;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  left: 10%;
+  top: 20%;
+}

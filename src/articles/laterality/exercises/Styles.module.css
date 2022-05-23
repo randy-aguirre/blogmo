@@ -1,0 +1,62 @@
+.background {
+  background-image: url("../../../assets/backgrounds/exercises.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  color: #b3d3fa;
+  font-size: 60px;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 0;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.content > div {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content > div > div:nth-child(1) {
+  background-color: #82b7f8;
+  height: 100px;
+  width: 100px;
+  border-radius: 85% 70% 84% 87% / 77% 82% 89% 94%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > div > div:nth-child(2) {
+  max-width: 280px;
+}
+
+.content h2 {
+  color: #ff6b6b;
+  font-size: 32px;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 0;
+}
+
+.content p {
+  font-family: "Exo 2", sans-serif;
+}
+
+.content svg {
+  font-size: 48px;
+  color: #ffffff;
+}

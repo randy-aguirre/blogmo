@@ -1,0 +1,54 @@
+.background {
+  background-image: url("../../../assets/backgrounds/methodology.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background h1 {
+  font-size: 60px;
+  color: #f57733;
+  font-family: "Fredoka One", cursive;
+  position: relative;
+  top: 5%;
+}
+
+.background > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 65%;
+}
+
+.background > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+}
+
+.background > div > div > h2 {
+  font-family: "Fredoka One", cursive;
+  font-size: 32px;
+  color: #ff6b6b;
+}
+
+.background > div > div > p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.background > div > div > div {
+  background-color: #82b7f8;
+  height: 100px;
+  width: 100px;
+  border-radius: 85% 70% 84% 87% / 77% 82% 89% 94%;
+}
