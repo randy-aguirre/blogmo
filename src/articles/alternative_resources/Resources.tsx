@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
 import styles from "./Styles.module.css";
+import HomeIcon from "@mui/icons-material/Home";
 
 const Resources = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <h1>Bibliografía</h1>
       <ul>
         <li>

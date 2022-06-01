@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
 import styles from "./Styles.module.css";
+import HomeIcon from "@mui/icons-material/Home";
 
 const Songs = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <h1>Rondas y Canciones</h1>
       <div className={styles.content}>
         <div>

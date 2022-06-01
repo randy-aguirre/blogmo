@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import styles from "./Styles.module.css";
+import HomeIcon from "@mui/icons-material/Home";
 
 const Index = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <div>
         <h1>Lateralidad</h1>
         <p>

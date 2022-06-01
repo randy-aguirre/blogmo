@@ -1,10 +1,14 @@
 import styles from "./Styles.module.css";
 import bodySchemes from "../../../assets/images/esquema-corporal.png";
 import { Link } from "react-router-dom";
+import HomeIcon from "@mui/icons-material/Home";
 
 const Index = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <h1>Esquema Corporal</h1>
       <div className={styles.content}>
         <div>

@@ -7,7 +7,6 @@ import Intro from "./articles/about/intro/Intro";
 import Justification from "./articles/about/justification/Justification";
 import Target from "./articles/about/target/Target";
 import Theory from "./articles/about/theory/Theory";
-import Methodology from "./articles/about/methodology/Methodology";
 import IndexBodyScheme from "./articles/body_scheme/index/Index";
 import Songs from "./articles/body_scheme/songs/Songs";
 import Exercises from "./articles/body_scheme/exercises/Exercises";
@@ -37,7 +36,7 @@ import MoreResources from "./articles/alternative_resources/Resources";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="blogmo">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="index" element={<Index />} />
@@ -48,7 +47,6 @@ function App() {
             <Route path="justification" element={<Justification />} />
             <Route path="objective" element={<Target />} />
             <Route path="theory-considetarions" element={<Theory />} />
-            <Route path="methodology" element={<Methodology />} />
           </Route>
 
           <Route path="body-scheme">

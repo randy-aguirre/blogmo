@@ -7,11 +7,61 @@
   overflow: hidden;
 }
 
-.background h1 {
+.background > h1 {
   font-size: 60px;
   color: #82b7f8;
   font-family: "Fredoka One", cursive;
   position: relative;
   left: 55%;
-  top: 25%;
+  top: 15%;
+}
+
+.background > div {
+  position: relative;
+  left: 15%;
+  top: 40%;
+  width: 50%;
+  height: 45%;
+  overflow-y: scroll;
+  font-family: "Exo 2", sans-serif;
+}
+
+.background p {
+  margin-top: 0;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 1281px) {
+  .background div {
+    top: 35%;
+    left: 20%;
+  }
+  .background > h1 {
+    left: 55%;
+    top: 20%;
+  }
+}
+
+.background div p:nth-child(2) {
+  padding-left: 40px;
+}
+
+.homeIcon {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  color: #ffffff;
+  background-color: #7abae7;
+  border: 5px solid #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.homeIcon:hover {
+  color: #7abae7;
+  background-color: #ffffff;
+  transform: scale(1.1);
 }

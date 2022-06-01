@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import styles from "./Styles.module.css";
+import HomeIcon from "@mui/icons-material/Home";
 
 const Index = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <h1>Acciones Básicas</h1>
       <p>
         Desde luego que se puede definir los patrones fundamentales como los

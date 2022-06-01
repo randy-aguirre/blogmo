@@ -1,9 +1,14 @@
 import styles from "./Styles.module.css";
 import SettingsIcon from "@mui/icons-material/Settings";
+import HomeIcon from "@mui/icons-material/Home";
+import { Link } from "react-router-dom";
 
 const Exercises = () => {
   return (
     <div className={styles.background}>
+      <Link to="/index">
+        <HomeIcon className={styles.homeIcon} />
+      </Link>
       <h1>Ejercicios</h1>
       <div className={styles.content}>
         <div>

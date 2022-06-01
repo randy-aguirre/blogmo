@@ -35,3 +35,22 @@
   color: #ffffff;
   font-family: "Exo 2", sans-serif;
 }
+
+.homeIcon {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  color: #ffffff;
+  background-color: #7abae7;
+  border: 5px solid #ffffff;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.homeIcon:hover {
+  color: #7abae7;
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
