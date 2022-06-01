@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blogmo/static/css/main.1edad416.css",
-    "main.js": "/blogmo/static/js/main.926d77c1.js",
+    "main.css": "/blogmo/static/css/main.c1edd221.css",
+    "main.js": "/blogmo/static/js/main.c2d99229.js",
     "static/js/787.8e3e62aa.chunk.js": "/blogmo/static/js/787.8e3e62aa.chunk.js",
     "static/media/eye-hand-coordination.png": "/blogmo/static/media/eye-hand-coordination.cbae1a0740b738e773a5.png",
     "static/media/blogmo-landing.png": "/blogmo/static/media/blogmo-landing.c8c035c1e8e8e5a5be93.png",
@@ -20,16 +20,15 @@
     "static/media/theory.png": "/blogmo/static/media/theory.55c4b07530023d25b0f3.png",
     "static/media/exercises.png": "/blogmo/static/media/exercises.30856860172ad19261d9.png",
     "static/media/body-scheme.png": "/blogmo/static/media/body-scheme.3aada118bb9b599e208e.png",
-    "static/media/methodology.png": "/blogmo/static/media/methodology.44effcb6324372a4e846.png",
     "static/media/songs.png": "/blogmo/static/media/songs.57797f9fce1e785865a0.png",
     "static/media/resources.png": "/blogmo/static/media/resources.cf00978da4271768584d.png",
     "index.html": "/blogmo/index.html",
-    "main.1edad416.css.map": "/blogmo/static/css/main.1edad416.css.map",
-    "main.926d77c1.js.map": "/blogmo/static/js/main.926d77c1.js.map",
+    "main.c1edd221.css.map": "/blogmo/static/css/main.c1edd221.css.map",
+    "main.c2d99229.js.map": "/blogmo/static/js/main.c2d99229.js.map",
     "787.8e3e62aa.chunk.js.map": "/blogmo/static/js/787.8e3e62aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1edad416.css",
-    "static/js/main.926d77c1.js"
+    "static/css/main.c1edd221.css",
+    "static/js/main.c2d99229.js"
   ]
 }
