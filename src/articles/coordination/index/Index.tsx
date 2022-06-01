@@ -8,6 +8,7 @@ const Index = () => {
       <Link to="/index">
         <HomeIcon className={styles.homeIcon} />
       </Link>
+
       <div className={styles.background}>
         <div>
           <h1>Coordinación</h1>
