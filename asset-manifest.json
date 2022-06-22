@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/blogmo/static/css/main.c1edd221.css",
-    "main.js": "/blogmo/static/js/main.012160a1.js",
+    "main.css": "/blogmo/static/css/main.61ac7444.css",
+    "main.js": "/blogmo/static/js/main.80acfa26.js",
     "static/js/787.8e3e62aa.chunk.js": "/blogmo/static/js/787.8e3e62aa.chunk.js",
     "static/media/eye-hand-coordination.png": "/blogmo/static/media/eye-hand-coordination.cbae1a0740b738e773a5.png",
     "static/media/blogmo-landing.png": "/blogmo/static/media/blogmo-landing.c8c035c1e8e8e5a5be93.png",
@@ -23,12 +23,12 @@
     "static/media/songs.png": "/blogmo/static/media/songs.57797f9fce1e785865a0.png",
     "static/media/resources.png": "/blogmo/static/media/resources.cf00978da4271768584d.png",
     "index.html": "/blogmo/index.html",
-    "main.c1edd221.css.map": "/blogmo/static/css/main.c1edd221.css.map",
-    "main.012160a1.js.map": "/blogmo/static/js/main.012160a1.js.map",
+    "main.61ac7444.css.map": "/blogmo/static/css/main.61ac7444.css.map",
+    "main.80acfa26.js.map": "/blogmo/static/js/main.80acfa26.js.map",
     "787.8e3e62aa.chunk.js.map": "/blogmo/static/js/787.8e3e62aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1edd221.css",
-    "static/js/main.012160a1.js"
+    "static/css/main.61ac7444.css",
+    "static/js/main.80acfa26.js"
   ]
 }
